@@ -38,7 +38,7 @@
       <h2 class="mr-4 font-bold">Lab</h2>
       <h2>
         
-           Sem 1 Computing
+           2024 Sem 1 Computing
         
       </h2>
     </div>
@@ -70,7 +70,7 @@
   <a href=../../index.html>
   
             <span class="hidden text-xs lg:block lg:pl-2">
-               Sem 1 Computing
+               2024 Sem 1 Computing
             </span>
             
   </a>
@@ -140,7 +140,7 @@
         
   
       
-        <a href="https://moodle.wit.ie/course/view.php?id=200054" target="_blank" ">
+        <a href="https://moodle.wit.ie/course/view.php" target="_blank" ">
         
           <div class="tooltip tooltip-bottom" data-tip="To Moodle ...">
           
@@ -207,6 +207,14 @@
              Specification
           </a>
         
+          <a id="menu-Timetable" class="p-4 py-3 text-base" href="javascript:showtab('Timetable')">
+             Timetable
+          </a>
+        
+          <a id="menu-Grading" class="p-4 py-3 text-base" href="javascript:showtab('Grading')">
+             Grading
+          </a>
+        
       </ul>
     </div>
     <div class="justify-end w-full bg-base-200 rounded-box rounded-xl py-1 text-base-content">
@@ -236,7 +244,7 @@
   
     <div id="Details" style="visibility:hidden">
       <h1 id="specification" tabindex="-1"><a class="header-anchor" href="#specification">Specification</a></h1>
-<p>Report · CA Requirements · Grading</p>
+<p>Report · CA Requirements</p>
 <p>You are required to write up an academic report on <strong>one of the following topics</strong>:</p>
 <ol>
 <li>WHAT’S ONE THING EVERYONE SHOULD KNOW ABOUT FORESTS</li>
@@ -250,8 +258,7 @@
 <li>6% Correct use of <em>Harvard Referencing</em></li>
 </ol>
 <p><strong>Part (2) 20% Orally present what you’ve learned using presentation software</strong></p>
-<p>You will present your learing from this research during week 12 during your class on <strong>Monday Dec 4th 2023</strong> in the IT Building on SETU campus.</p>
-<p>By then you will have converted your findings and what you’ve learned into a visually attractive presentation using MS PowerPoint.</p>
+<p>For this presentation, you are to have converted your research findings and what you’ve learned into a visually attractive presentation using MS PowerPoint.</p>
 <ol>
 <li>10% will be awarded on your technical use of <em>MS PowerPoint</em></li>
 <li>10% will be awarded on your <em>communication skills</em></li>
@@ -264,6 +271,34 @@
 </ul>
 </div>
   
+    <div id="Timetable" style="visibility:hidden">
+      <h1 id="timetable" tabindex="-1"><a class="header-anchor" href="#timetable">Timetable</a></h1>
+<p>Date · Time</p>
+<p>You will present your learing from your research  during your timetabled class:</p>
+<ol>
+<li>
+<p>BSc in Forestry Presentations - Monday Nov 27th
+–&gt; Please be in ITG02 at 14:10 SHARP</p>
+</li>
+<li>
+<p>BSc in Horticulture Presentations - Monday Dec 4th
+–&gt; Please be in ITG18 at 9:10 SHARP</p>
+</li>
+</ol>
+</div>
+  
+    <div id="Grading" style="visibility:hidden">
+      <h1 id="grading" tabindex="-1"><a class="header-anchor" href="#grading">Grading</a></h1>
+<p>Rubric · Check you’ve everything included</p>
+<p>Below is an image of the grading rubric that will be used to grade your presentations:</p>
+<p><img src="./img/PowerPointGrading.png" alt="Grading PowerPoint"></p>
+<p>You will see that there are two sections</p>
+<ol>
+<li>Your ability to use MS PowerPoint software and</li>
+<li>Your ability to communicate effectively</li>
+</ol>
+</div>
+  
   <script>
 
     function resettabs() {
@@ -273,6 +308,12 @@
         menuItem.className = "p-4 py-3 text-base";
       
         menuItem = document.getElementById('menu-Details');
+        menuItem.className = "p-4 py-3 text-base";
+      
+        menuItem = document.getElementById('menu-Timetable');
+        menuItem.className = "p-4 py-3 text-base";
+      
+        menuItem = document.getElementById('menu-Grading');
         menuItem.className = "p-4 py-3 text-base";
       
     }
@@ -293,6 +334,18 @@
               menuItem = document.getElementById('menu-Details');
               menuItem.className = "p-4 py-3 text-xl font-bold bordered";
               document.getElementById('tab-container').innerHTML = document.getElementById("Details").innerHTML;
+          break;
+        
+          case "Timetable" : 
+              menuItem = document.getElementById('menu-Timetable');
+              menuItem.className = "p-4 py-3 text-xl font-bold bordered";
+              document.getElementById('tab-container').innerHTML = document.getElementById("Timetable").innerHTML;
+          break;
+        
+          case "Grading" : 
+              menuItem = document.getElementById('menu-Grading');
+              menuItem.className = "p-4 py-3 text-xl font-bold bordered";
+              document.getElementById('tab-container').innerHTML = document.getElementById("Grading").innerHTML;
           break;
         
       default:

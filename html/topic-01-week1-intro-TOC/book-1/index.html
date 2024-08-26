@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutors</title>
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.1.4/dist/typography.min.css" />
+    
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/railscasts.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@^4/themes/default.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@^4/themes/light.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn" crossorigin="anonymous"/>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@vime/core@^4/dist/vime/vime.esm.js"></script>
+  </head>
+
+  <body>
+    <div class="mx-auto px-3 antialiased bg-base-100 min-h-screen w-full 2xl:w-11/12" data-theme="light">
+  
+  <div class="p-3 shadow-lg bg-neutral text-neutral-content rounded-box nav-corner mb-1 justify-start z-40 flex mt-2">
+    
+  <div class="flex flex-row">
+    <div>
+      
+        <img loading="lazy" class="h-12" src="./img/main.png" alt="Lab"/>
+      
+    </div>
+    <div class="ml-4 flex-nowrap">
+      <h2 class="mr-4 font-bold">Lab</h2>
+      <h2>
+        
+           2024 Sem 1 Computing
+        
+      </h2>
+    </div>
+  </div>
+
+  </div>
+  <div class="flex flex-wrap lg:flex-nowrap mb-2">
+    
+  <div class="shadow-lg bg-neutral rounded-box nav-corner horizontal text-neutral-content text-sm breadcrumbs flex flex-auto content-center h-12">
+    <ul>
+      
+        
+          
+          <li class="ml-2">
+            
+              
+  
+    <div>
+    
+          <span class="mx-2 iconify" data-icon="fluent:home-24-filled" data-height="20" style="color:#37919b"></span>
+        </div>
+        
+  
+            
+            
+  
+    
+  
+  <a href=../../index.html>
+  
+            <span class="hidden text-xs lg:block lg:pl-2">
+               2024 Sem 1 Computing
+            </span>
+            
+  </a>
+
+          </li>
+        
+          
+          <li class="ml-2">
+            
+              
+  
+    <div>
+    
+          <span class="mx-2 iconify" data-icon="fluent:bookmark-24-filled" data-height="20" style="color:#37919b"></span>
+        </div>
+        
+  
+            
+            
+  
+    
+  
+  <a href=../index.html>
+  
+            <span class="hidden text-xs lg:block lg:pl-2">
+               01 and 02. Module introduction and overview
+            </span>
+            
+  </a>
+
+          </li>
+        
+          
+          <li class="ml-2">
+            
+              
+  
+    <div>
+    
+          <span class="mx-2 iconify" data-icon="fluent:bookmark-24-filled" data-height="20" style="color:#37919b"></span>
+        </div>
+        
+  
+            
+            
+  
+    
+  
+  <a href=./index.html>
+  
+            <span class="hidden text-xs lg:block lg:pl-2">
+              Lab
+            </span>
+            
+  </a>
+
+          </li>
+        
+      
+    </ul>
+  </div>
+
+    
+  
+    <div class="p-3 flex-wrap lg:flex-none shadow-lg bg-neutral text-neutral-content rounded-box nav-corner horizontal ml-2">
+      
+        
+  
+      
+        <a href="https://moodle.wit.ie/course/view.php" target="_blank" ">
+        
+          <div class="tooltip tooltip-bottom" data-tip="To Moodle ...">
+          
+          <span class="mx-2 iconify" data-icon="fluent:hat-graduation-24-filled" data-height="20" style="color:#d27711"></span>
+        </div>
+        
+        </a>
+      
+  
+      
+      
+      
+      
+    </div>
+  
+
+    
+  
+    
+  
+  <div class="p-3 flex-wrap lg:flex-none shadow-lg bg-neutral text-neutral-content rounded-box nav-corner horizontal ml-2">
+    
+      
+  
+      
+          <a href="../../../talk.html">
+          
+          <div class="tooltip tooltip-bottom" data-tip="All talk's in module">
+          
+          <span class="mx-2 iconify" data-icon="fluent:presenter-24-filled" data-height="20" style="color:#37919b"></span>
+        </div>
+        
+        </a>
+      
+  
+    
+      
+  
+      
+          <a href="../../../lab.html">
+          
+          <div class="tooltip tooltip-bottom" data-tip="All lab's in module">
+          
+          <span class="mx-2 iconify" data-icon="fluent:beaker-24-filled" data-height="20" style="color:#557927"></span>
+        </div>
+        
+        </a>
+      
+  
+    
+  </div>
+
+  </div>
+
+  <div class="flex m-2">
+    <div class="hidden md:block">
+      <ul class="menu py-2 w-72 shadow-lg bg-neutral text-neutral-content rounded-box card-corner sticky top-2 overflow-auto h-auto mr-2">
+        
+          <a id="menu-Lab" class="p-4 py-3 text-base" href="javascript:showtab('Lab')">
+             Class Content
+          </a>
+        
+          <a id="menu-Software" class="p-4 py-3 text-base" href="javascript:showtab('Software')">
+             Supports Available
+          </a>
+        
+          <a id="menu-OneDrive" class="p-4 py-3 text-base" href="javascript:showtab('OneDrive')">
+             Create OneDrive Folders
+          </a>
+        
+          <a id="menu-Tabs" class="p-4 py-3 text-base" href="javascript:showtab('Tabs')">
+             Tabs and Heading Styles
+          </a>
+        
+          <a id="menu-3%CA_TOC" class="p-4 py-3 text-base" href="javascript:showtab('3%CA_TOC')">
+             Table Of Contents and 3% CA
+          </a>
+        
+      </ul>
+    </div>
+    <div class="justify-end w-full bg-base-200 rounded-box rounded-xl py-1 text-base-content">
+      <article id="tab-container" class="prose xl:max-w-3xl 2xl:max-w-5xl mx-auto p-2 m-4"></article>
+    </div>
+  </div>
+  
+    <div id="Lab" style="visibility:hidden">
+      <h1 id="class-content" tabindex="-1"><a class="header-anchor" href="#class-content">Class Content</a></h1>
+<p>Supports · Tabs · Headings · TOC · 3% CA</p>
+<h2 id="where-can-i-find-my-class-content%3F" tabindex="-1"><a class="header-anchor" href="#where-can-i-find-my-class-content%3F">Where can I find my class content?</a></h2>
+<ul>
+<li>Class notes and assessment details:</li>
+</ul>
+<p>You are now on your <a href="https://computingclass.netlify.app" target="_blank">https://computingclass.netlify.app</a> webpage that will be your base site for contents for my class</p>
+<p><img src="./img/netlify.jpg" alt="Site Screenshot"></p>
+<p>You will need to set up a netlify account</p>
+<ul>
+<li><a href="https://moodle.wit.ie/course/view.php?id=200054" target="_blank">Moodle</a></li>
+</ul>
+<p>This contains your</p>
+<ol>
+<li>Zoom link and</li>
+<li>Continuous Assessment upload areas</li>
+</ol>
+<p><img src="./img/moodle.jpg" alt="Moodle Screenshot"></p>
+<p>Your <em><strong>Zoom class password is</strong></em> compclass</p>
+<ul>
+<li>If you would like to know more about how Assistive Technologies can support your learning, the <a href="https://www.ahead.ie/Discover-your-AT" target="_blank">AT Hive</a> from AHEAD.ie will answer all of your questions and suggest technologies to match your needs. If you have any questions please <a href="mailto:moodle.wd@setu.ie" target="_blank">contact the Moodle support desk</a></li>
+</ul>
+<p>Please feel free to <a href="mailto:caroline.cahill@setu.ie" target="_blank">email me</a> if you’ve any queries or concerns</p>
+<p>Best of luck with the Semester!</p>
+<p>Caroline Cahill</p>
+</div>
+  
+    <div id="Software" style="visibility:hidden">
+      <h1 id="supports-available" tabindex="-1"><a class="header-anchor" href="#supports-available">Supports Available</a></h1>
+<ul>
+<li>
+<p>Students will be able to apply for the <a href="https://www.wit.ie/current_students/student_life_and_learning/wit-laptop-scheme/" target="_blank">SETU Laptop Loan Scheme</a></p>
+</li>
+<li>
+<p>You all have access to install <a href="http://www.wit.ie/getoffice" target="_blank">FREE Microsoft Office</a>, saving the cost of a student license(about €80), on up to 5 devices</p>
+</li>
+<li>
+<p>You all have FREE access to <a href="https://www.wit.ie/current_students/study_supports/one-drive-for-students" target="_blank">1TB cloud storage through OneDrive</a> meaning you can access documents easily from anywhere once you have internet access be in at home, SETU campus, Kildalton etc.</p>
+</li>
+</ul>
+</div>
+  
+    <div id="OneDrive" style="visibility:hidden">
+      <h1 id="create-onedrive-folders" tabindex="-1"><a class="header-anchor" href="#create-onedrive-folders">Create OneDrive Folders</a></h1>
+<ul>
+<li>
+<p>Log onto OneDrive</p>
+</li>
+<li>
+<p>Create one new folder called <strong>ComputingClass</strong></p>
+</li>
+<li>
+<p>Now, create five more folder, one to store content from each for your modules</p>
+</li>
+</ul>
+<h1 id="bsc-in-horticulture-modules-list" tabindex="-1"><a class="header-anchor" href="#bsc-in-horticulture-modules-list">BSc in Horticulture modules list</a></h1>
+<p><img src="./img/horts.PNG" alt="BSc in Horticulture Modules"></p>
+<h1 id="bsc-in-forestry-modules-list" tabindex="-1"><a class="header-anchor" href="#bsc-in-forestry-modules-list">BSc in Forestry modules list</a></h1>
+<p><img src="./img/forestry.PNG" alt="BSc in Forestry Modules"></p>
+<p>At this stage, you will have created a total of SIX folders on OneDrive… USE THEM to store content from your modules</p>
+<p><img src="./img/filemgt.jpeg" alt="File Management"></p>
+</div>
+  
+    <div id="Tabs" style="visibility:hidden">
+      <h1 id="tabs-and-heading-styles" tabindex="-1"><a class="header-anchor" href="#tabs-and-heading-styles">Tabs and Heading Styles</a></h1>
+<p>tabs · heading styles</p>
+<p>Create a formatted MS Word document</p>
+<h2 id="heading-styles" tabindex="-1"><a class="header-anchor" href="#heading-styles">Heading Styles</a></h2>
+<ul>
+<li>Create a new document and save as <strong>TabsExercise</strong> in your  <strong>ComputingClass</strong> folder</li>
+<li>Add Heading 1 styled text <strong>Native Irish</strong> to the top of the page</li>
+</ul>
+<p><img src="./img/heading.PNG" alt="Heading Styles"></p>
+<h2 id="tabs" tabindex="-1"><a class="header-anchor" href="#tabs">Tabs</a></h2>
+<ul>
+<li>Create tabs at <strong>6cm</strong> and <strong>11cm</strong>
+<ul>
+<li>you can simply click on the <strong>Ruler</strong> along the top</li>
+<li>if the ruler isn’t there, click <strong>View</strong> and turn it on to visible</li>
+</ul>
+</li>
+</ul>
+<p>Type in the following tabbed content into your document, using the <strong>Tab</strong> key on your keyboard (above <strong>CAPS</strong>) to move between tabs:</p>
+<p><img src="./img/tabs1.PNG" alt="Native Trees Tabs"></p>
+<h2 id="page-breaks" tabindex="-1"><a class="header-anchor" href="#page-breaks">Page Breaks</a></h2>
+<ul>
+<li>Move your cursor to the next page using a <strong>PAGE BREAK</strong></li>
+</ul>
+<pre class="hljs"><code>ctrl + Enter to move to the next page
+</code></pre>
+<ul>
+<li>Add Heading 1 styled text <strong>Customers Yearly Offers</strong> at the top of the new page 2</li>
+</ul>
+<p><img src="./img/tabs2.PNG" alt="Tabs"></p>
+<h2 id="view-your-formatting" tabindex="-1"><a class="header-anchor" href="#view-your-formatting">View your Formatting</a></h2>
+<p>View your tabs… switch this <strong>Show/Hide</strong> button on/off to view your formatting:</p>
+<p><img src="./img/showhide.PNG" alt="Show Hide"></p>
+<h2 id="edit-your-tabs" tabindex="-1"><a class="header-anchor" href="#edit-your-tabs">Edit your tabs</a></h2>
+<p>Select this tabbed text and using the Ruler</p>
+<ul>
+<li>move the tab currently at <strong>6cm</strong> back to <strong>4cm</strong></li>
+<li>move the tab currently at <strong>8cm</strong> back to <strong>6.5cm</strong></li>
+</ul>
+<p>It will look similar to:</p>
+<p><img src="./img/tabs3.PNG" alt="Move Tabs"></p>
+<ul>
+<li>Close your document</li>
+<li>Exit MS Word</li>
+<li>Back in OneDrive, rename this file to <strong>Tabs_TOC</strong></li>
+</ul>
+<p><em>HOW TO RENAME IN ONEDRIVE:</em>
+- login to OneDrive (you <strong>must</strong> have closed your file in MS Word to rename… why?)
+- find the file and click on the three dots to the side
+- Rename as you wish</p>
+</div>
+  
+    <div id="3%CA_TOC" style="visibility:hidden">
+      <h1 id="table-of-contents-and-3%25-ca" tabindex="-1"><a class="header-anchor" href="#table-of-contents-and-3%25-ca">Table Of Contents and 3% CA</a></h1>
+<p>By the end of this lab you will have added an Automated Table of Contents (TOC) to your final professional looking Word processed document.</p>
+<p>Reopen your <strong>Tabs_TOC</strong> document</p>
+<p>Recreate the following letter on a new page within the <strong>Tabs_TOC</strong> document that <strong>Woodland Nurseries Ltd</strong> are sending to <strong>Eleanor Kent</strong> in <strong>SETU</strong></p>
+<h2 id="taking-note-of%3A" tabindex="-1"><a class="header-anchor" href="#taking-note-of%3A">Taking note of:</a></h2>
+<ul>
+<li>the “<strong>Business Letter</strong>” text on top is formatted as Heading 1 styled text</li>
+<li>the tabs for the senders address (on the right)</li>
+<li>left align the receivers address (on the left)</li>
+<li>use the <strong>Insert/Date &amp; Time</strong> button to replace <strong>&lt;&lt;today’s date&gt;&gt;</strong></li>
+<li>centre aligning “<strong>Re: Ordering trees</strong>”</li>
+<li>1.5 line spacing throughout</li>
+</ul>
+<p><img src="./img/letter.PNG" alt=""></p>
+<p>Now, return to the very beginning of the entire document</p>
+<pre class="hljs"><code>ctrl+HOME
+</code></pre>
+<p>Create another new first page</p>
+<pre class="hljs"><code>ctrl+ENTER
+</code></pre>
+<h1 id="create-an-automated-table-of-contents-(toc)" tabindex="-1"><a class="header-anchor" href="#create-an-automated-table-of-contents-(toc)">Create an Automated Table of Contents (TOC)</a></h1>
+<p>Into this new page, we will insert an automated Table of Contents</p>
+<ul>
+<li>After you have created a document by using heading styles, you are ready to build an <strong>automated table of contents</strong>.</li>
+</ul>
+<ol>
+<li>Click where you want to insert the TOC (usually at the beginning of a document).</li>
+<li>On the <strong>References</strong> tab, in the <strong>Table of Contents</strong> group, click <strong>Table of Contents</strong>, and then click the table of contents style that you want (usually the first one)</li>
+</ol>
+<h1 id="add-a-cover-page" tabindex="-1"><a class="header-anchor" href="#add-a-cover-page">Add a Cover Page</a></h1>
+<p><strong>Insert</strong> a <strong>Cover Page</strong> template of your choice. Include:</p>
+<ul>
+<li>your name</li>
+<li>your course</li>
+<li>your lecturers name</li>
+</ul>
+<p>Now your TOC is showing the incorrect page numbers because you’ve a new page 1.</p>
+<h1 id="update-an-automated-table-of-contents" tabindex="-1"><a class="header-anchor" href="#update-an-automated-table-of-contents">Update an Automated Table of Contents</a></h1>
+<p>If you added or removed headings or other table of contents entries in your document, you can quickly update the table of contents.</p>
+<ol>
+<li>On the <strong>References</strong> tab, in the <strong>Table of Contents</strong> group, click <strong>Update Table</strong>.</li>
+<li>Click Update page numbers only or <strong>Update entire table</strong></li>
+</ol>
+<p>Finally,</p>
+<ul>
+<li>Go to the end of your document</li>
+<li>Insert a Page Break</li>
+<li>Add a new <strong>Heading 1</strong> formatted title with the word <strong>Shortcuts</strong></li>
+<li>Copy the text below into this new page, filling in the blanks</li>
+</ul>
+<p><strong>Shortcuts:</strong></p>
+<ul>
+<li>Go get to the very top of any document:</li>
+</ul>
+<p>click Ctrl + _____________</p>
+<ul>
+<li>Go get to the very end of any document:</li>
+</ul>
+<p>click Ctrl + _____________</p>
+<ul>
+<li>To insert a new page:</li>
+</ul>
+<p>click Ctrl + _______________</p>
+<p>The ________ deletes to the left of the cursor
+The ________ deletes to the right of the cursor</p>
+<h1 id="upload-your-completed-work" tabindex="-1"><a class="header-anchor" href="#upload-your-completed-work">UPLOAD YOUR COMPLETED WORK</a></h1>
+<p>Upload your completed formatted <strong>Tabs_TOC</strong> document to <a href="https://moodle.wit.ie/mod/assign/view.php?id=4087696" target="_blank">Moodle Continuous Assessment Upload Area</a> (before the cut off of 9pm next Monday night)</p>
+</div>
+  
+  <script>
+
+    function resettabs() {
+      let menuItem;
+      
+        menuItem = document.getElementById('menu-Lab');
+        menuItem.className = "p-4 py-3 text-base";
+      
+        menuItem = document.getElementById('menu-Software');
+        menuItem.className = "p-4 py-3 text-base";
+      
+        menuItem = document.getElementById('menu-OneDrive');
+        menuItem.className = "p-4 py-3 text-base";
+      
+        menuItem = document.getElementById('menu-Tabs');
+        menuItem.className = "p-4 py-3 text-base";
+      
+        menuItem = document.getElementById('menu-3%CA_TOC');
+        menuItem.className = "p-4 py-3 text-base";
+      
+    }
+
+    function showtab(tabs) {
+      resettabs();
+      let menuItem;
+      var tab = tabs;
+      switch (tab){
+        
+          case "Lab" : 
+              menuItem = document.getElementById('menu-Lab');
+              menuItem.className = "p-4 py-3 text-xl font-bold bordered";
+              document.getElementById('tab-container').innerHTML = document.getElementById("Lab").innerHTML;
+          break;
+        
+          case "Software" : 
+              menuItem = document.getElementById('menu-Software');
+              menuItem.className = "p-4 py-3 text-xl font-bold bordered";
+              document.getElementById('tab-container').innerHTML = document.getElementById("Software").innerHTML;
+          break;
+        
+          case "OneDrive" : 
+              menuItem = document.getElementById('menu-OneDrive');
+              menuItem.className = "p-4 py-3 text-xl font-bold bordered";
+              document.getElementById('tab-container').innerHTML = document.getElementById("OneDrive").innerHTML;
+          break;
+        
+          case "Tabs" : 
+              menuItem = document.getElementById('menu-Tabs');
+              menuItem.className = "p-4 py-3 text-xl font-bold bordered";
+              document.getElementById('tab-container').innerHTML = document.getElementById("Tabs").innerHTML;
+          break;
+        
+          case "3%CA_TOC" : 
+              menuItem = document.getElementById('menu-3%CA_TOC');
+              menuItem.className = "p-4 py-3 text-xl font-bold bordered";
+              document.getElementById('tab-container').innerHTML = document.getElementById("3%CA_TOC").innerHTML;
+          break;
+        
+      default:
+        document.getElementById('tab-container').innerHTML = document.getElementById("00").innerHTML;
+        break;
+    }
+  }
+
+  </script>
+</div>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+  </body>
+</html>
