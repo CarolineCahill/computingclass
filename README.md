@@ -1,4 +1,4 @@
-# Computing Class 2022
+# Computing Class 2024
 
 The course structure for your Communication Skills and Computer Applications class is:
 
