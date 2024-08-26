@@ -1,0 +1,19 @@
+moodle         : https://moodle.wit.ie/course/view.php  
+#youtube        : https://www.youtube.com/playlist?list=PLEuhMaR29LyBMgzJpkbLg3z3wl2LwnOe7GONE
+parent         : course/computingclass.netlify.app
+credits        : Caroline Cahill, SETU
+ignorepin      : 1122
+auth           : 3
+ignore :
+# - topic-00-week00-Research
+ - topic-01-week1-intro-TOC
+# - topic-03-week3-Referencing
+# - topic-04-week4-ChatGPT_BuyingPC
+# - topic-05-week5-minutes
+# - topic-06-week6-minutes
+# - topic-07-week7-Excel
+# - topic-08-week8-InClassExers
+# - topic-09-week9-ExamPrep
+# - topic-10-week10-PPTintro
+# - topic-11-week11-CA
+# - topic-12-week12-FinalCA
