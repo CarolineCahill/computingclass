@@ -1,3 +1,3 @@
-# 2024 Sem 1 Computing
+# 2025 Sem 1 Computing
 
-Computing · MS Office · Research · Communications
+MS Office · Meetings · Research · Communications

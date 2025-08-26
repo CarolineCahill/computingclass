@@ -1,3 +1,3 @@
-# 08. MS Excel
+# 08 and 09. MS Excel
 
-Formulae · 5% Classwork CA
+15% InClass Exercises CA

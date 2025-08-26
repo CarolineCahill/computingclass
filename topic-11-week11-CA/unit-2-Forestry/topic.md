@@ -1,3 +1,0 @@
-# Forestry Presentations
-
-PowerPoint Presentations

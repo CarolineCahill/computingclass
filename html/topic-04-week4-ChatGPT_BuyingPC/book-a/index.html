@@ -96,7 +96,7 @@
   <a href=../index.html>
   
             <span class="hidden text-xs lg:block lg:pl-2">
-               04 and 05. AI chatbots and Buying a Computer
+               03. AI chatbots and Buying a Computer
             </span>
             
   </a>
@@ -140,7 +140,7 @@
         
   
       
-        <a href="https://moodle.wit.ie/course/view.php" target="_blank" ">
+        <a href="https://moodle.wit.ie/course/view.php?id=209100" target="_blank" ">
         
           <div class="tooltip tooltip-bottom" data-tip="To Moodle ...">
           
@@ -203,6 +203,10 @@
              Objectives
           </a>
         
+          <a id="menu-Referencing" class="p-4 py-3 text-base" href="javascript:showtab('Referencing')">
+             Referencing Material
+          </a>
+        
           <a id="menu-ChatGPT" class="p-4 py-3 text-base" href="javascript:showtab('ChatGPT')">
              AI-based Chatbots
           </a>
@@ -247,6 +251,80 @@
 <li>groupwork</li>
 </ul>
 <p>10% Group Document due <strong>Monday, 16 October 2023, 5:15 PM</strong></p>
+</div>
+  
+    <div id="Referencing" style="visibility:hidden">
+      <h1 id="referencing-material" tabindex="-1"><a class="header-anchor" href="#referencing-material">Referencing Material</a></h1>
+<p>How to Reference</p>
+<p>Reopen your <strong>Privacy on the Web</strong> document</p>
+<p>You need to:</p>
+<ul>
+<li>add a <strong>Caption</strong> to the newly pasted image so that you can then create a <strong>Table of Figures</strong> in your document AND also</li>
+<li>acknowledge the source of the image you’ve entered in this document</li>
+</ul>
+<p><strong>IMAGE CAPTIONS</strong></p>
+<p>In MS Word, select the image, and under the <strong>References</strong> ribbon, choose to <strong>Insert Caption</strong></p>
+<p><img src="./img/Caption.JPG" alt="Image Caption"></p>
+<p>Give it an appropriate title of your choice, such as <strong>Computer Secutity</strong> and click <strong>OK</strong></p>
+<p><img src="./img/security.JPG" alt="Security Image"></p>
+<p><strong>HARVARD REFERENCE IMAGES</strong></p>
+<p>To give credit to the owner of this image you must reference it</p>
+<ul>
+<li>With your cursor <em>within</em> the <strong>image Caption</strong>, click <strong>Insert Citation</strong> from the <strong>References</strong> tab</li>
+</ul>
+<p>You’ve never used this source (this website) before so choose <strong>Add New Source</strong></p>
+<ul>
+<li>Now, fill in the blanks with detais from the original website and click <strong>OK</strong></li>
+</ul>
+<p><strong>HARVARD REFERENCE BOOKS</strong></p>
+<p>(1) Copy and paste the following:</p>
+<p><strong>According to a study conducted by the Center for the Built Environment at the University of California, Berkeley, 25,000 occupants of 150 buildings were surveyed to question users’ satisfaction regarding air quality, comfort, acoustics, and lighting</strong></p>
+<p>which is content taken from the book:</p>
+<p><img src="./img/sustainable.JPG" alt="Book Reference"></p>
+<p>(2) You’ve used ideas and added your paraphrased sentence “<strong>These findings were agreed upon by respected professionals in the field</strong>”, taken from the following book :</p>
+<p><img src="./img/strategies.JPG" alt="Book Reference"></p>
+<ul>
+<li>Create the Citation and associated Harvard Reference to this statement</li>
+</ul>
+<p>(3) You’ve added <strong>Others disagreed with this statement following a survey of 350 people late last year</strong> taken from a book titled <strong>“The Complete Guide to Referencing and Avoiding Plagiarism”</strong></p>
+<ul>
+<li>Create the Citation and associated Harvard Reference to this statement</li>
+</ul>
+<p><strong>HARVARD REFERENCE WEBSITES</strong></p>
+<p>Google Search for <strong>News</strong> articles relating to <strong>Biodiversity</strong> from only Irish domains</p>
+<p><img src="./img/irishSites.JPG" alt="Irish Site Reference"></p>
+<ul>
+<li>
+<p>Choose one <strong>News</strong> article of interest to you and add some content into your <strong>Privacy on the Web</strong> document</p>
+</li>
+<li>
+<p>Create the Citation and associated Harvard Reference to this content.</p>
+</li>
+</ul>
+<p><strong>HARVARD REFERENCE JOURNAL ARTICLES</strong></p>
+<p>Make use of <a href="https://library.setu.ie/" target="_blank">SETU’s online library</a> facility and search for ANY journal article(s) relating to:</p>
+<ol>
+<li>sustainability</li>
+<li>organic farming</li>
+</ol>
+<ul>
+<li>Create the Citation and associated Harvard Reference to your new content.</li>
+</ul>
+<p><strong>5% SUBMIT YOUR COMPLETED WORK</strong></p>
+<ul>
+<li>Add your name into the document <strong>header</strong></li>
+<li>Add your course into the document <strong>footer</strong> along with the page numbers</li>
+<li>Upload your completed file to the <a href="https://moodle.wit.ie/mod/assign/view.php?id=4334417" target="_blank">5% Privacy on the Web Completed Document</a> Area in Moodle</li>
+</ul>
+<p><em>GENERAL TIPS WHEN RESEARCHING:</em></p>
+<ul>
+<li>
+<p>Make use of the News tab in Google</p>
+</li>
+<li>
+<p>Filter google search results to make results more accurate and relevant to you such as adding site:.ie</p>
+</li>
+</ul>
 </div>
   
     <div id="ChatGPT" style="visibility:hidden">
@@ -344,6 +422,9 @@
         menuItem = document.getElementById('menu-Lab');
         menuItem.className = "p-4 py-3 text-base";
       
+        menuItem = document.getElementById('menu-Referencing');
+        menuItem.className = "p-4 py-3 text-base";
+      
         menuItem = document.getElementById('menu-ChatGPT');
         menuItem.className = "p-4 py-3 text-base";
       
@@ -371,6 +452,12 @@
               menuItem = document.getElementById('menu-Lab');
               menuItem.className = "p-4 py-3 text-xl font-bold bordered";
               document.getElementById('tab-container').innerHTML = document.getElementById("Lab").innerHTML;
+          break;
+        
+          case "Referencing" : 
+              menuItem = document.getElementById('menu-Referencing');
+              menuItem.className = "p-4 py-3 text-xl font-bold bordered";
+              document.getElementById('tab-container').innerHTML = document.getElementById("Referencing").innerHTML;
           break;
         
           case "ChatGPT" : 

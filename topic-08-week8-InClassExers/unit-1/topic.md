@@ -1,3 +1,3 @@
-# 08. MS Excel
+# 08. Class 1 MS Excel
 
-Formulae · 5% Classwork CA
+Formulae · 15% InClass Exer CA
