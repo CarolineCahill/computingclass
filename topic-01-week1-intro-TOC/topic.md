@@ -1,3 +1,3 @@
-# 01 and 02. Module introduction and overview
+# 01. Module intro and fundamentals
 
-Overview · Delivery · 3% CA
+Overview · OneDrive · Office · Emails · MS Word

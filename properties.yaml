@@ -1,4 +1,4 @@
-moodle         : https://moodle.wit.ie/course/view.php?id=
+moodle         : https://moodle.setu.ie/course/section.php?id=7440922
 #youtube        : https://www.youtube.com/playlist?list=PLEuhMaR29LyBMgzJpkbLg3z3wl2LwnOe7GONE
 #parent         : git clone https://github.com/tutors-sdk/tutors-starter.git
 credits        : Caroline Cahill, SETU
@@ -6,9 +6,9 @@ ignorepin      : 1122
 auth           : 3
 ignore :
  - topic-000-week000-Research
- - topic-01-week1-intro-TOC
- - topic-02-week2-ChatGPT_BuyingPC
- - topic-03-week3-Harvard
+ # - topic-01-week1-intro-TOC
+ - topic-02-week2-MS_Word
+ - topic-03-week3-CV
  - topic-04-week4-Harvard_CV
  - topic-05-week5-LibraryEmails
  - topic-06-week6-minutes
