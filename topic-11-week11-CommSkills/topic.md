@@ -1,3 +1,3 @@
-# 11. MS PowerPoint & Communication Skills
+# 11. Communication Skills
 
-MS PowerPoint · Communication Skills 
+Communication Skills for Presenting

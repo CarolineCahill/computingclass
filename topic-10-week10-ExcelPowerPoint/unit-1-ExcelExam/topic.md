@@ -1,3 +1,3 @@
-# 01. 10% MS Excel Assessment
+# 01. 20% MS Excel Assessment
 
-Complete CA & Upload to Moodle
+Complete & Upload 20% CA

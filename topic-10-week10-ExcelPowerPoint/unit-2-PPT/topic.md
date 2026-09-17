@@ -1,3 +1,3 @@
 # 02. MS PowerPoint
 
-Images · Animations · Timings 
+Objects · Animations · Timings

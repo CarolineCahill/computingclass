@@ -1,0 +1,1 @@
+# MS Word shapes and Images

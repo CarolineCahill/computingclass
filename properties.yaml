@@ -1,20 +1,17 @@
-moodle         : https://moodle.setu.ie/course/section.php?id=7440922
-#youtube        : https://www.youtube.com/playlist?list=PLEuhMaR29LyBMgzJpkbLg3z3wl2LwnOe7GONE
-#parent         : git clone https://github.com/tutors-sdk/tutors-starter.git
+moodle         : https://moodle.setu.ie/course/view.php?id=226817
 credits        : Caroline Cahill, SETU
 ignorepin      : 1122
-auth           : 3
+# auth           : 1
 ignore :
- - topic-000-week000-Research
- # - topic-01-week1-intro-TOC
- - topic-02-week2-MS_Word
- - topic-03-week3-CV
- - topic-04-week4-Harvard_CV
- - topic-05-week5-LibraryEmails
- - topic-06-week6-minutes
- - topic-07-week7-Excel
- - topic-08-week8-InClassExers
- - topic-09-week9-ExamPrep
- - topic-10-week10-ExcelPowerPoint
- - topic-11-week11-CommSkills
- - topic-12-week12-FinalCA
+  - topic-000-week000-Research
+#  - topic-01-week1-intro-TOC
+  - topic-02-week3-MS_Word
+  - topic-03-week4-CV_Emails
+  - topic-04-week5-Meetings
+  - topic-06-week6-Referencing
+  - topic-07-week7-Practice
+  - topic-08-week8-Excel
+  - topic-09-week9-Excel
+  - topic-10-week10-ExcelPowerPoint
+  - topic-11-week11-CommSkills
+  - topic-12-week12-FinalCA

@@ -1,3 +1,3 @@
-# MS PowerPoint Animations
+# MS PowerPoint Features
 
-Ash Dieback Presentation
+Features expected in your Presentation

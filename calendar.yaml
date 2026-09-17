@@ -1,41 +1,76 @@
-title: Computing class
+title: Semester 1
+year: 2026
+
 weeks:
-  - 2025-09-10:
-      title: 1
-      type: Inductions
-  - 2025-09-15:
-      title: 2
-      type: Intro + MS Word
-  - 2025-09-22:
-      title: 3
-      type: MS Word Formatting
-  - 2025-09-29:
-      title: 4
-      type: Hort Library CV Prep
-  - 2025-10-06:
-      title: 5
-      type: Harvard Referencing
-  - 2025-10-13:
-      title: 6
-      type: Forestry Library CV Prep
-  - 2025-10-20:
-      title: 7
-      type: Meetings
-  - 2025-10-27:
-      title: Midterm 
-      type: Reading Week
-  - 2025-11-03:
-      title: 8
-      type: MS Excel
-  - 2025-11-10:
-      title: 9
-      type: MS Excel
-  - 2025-11-17:
-      title: 10 
-      type: MS Excel CA
-  - 2025-11-24:
-      title: 11 
-      type: MS PowerPoint
-  - 2024-12-01:
-      title: 12
-      type: Presentations
+  - date: 2026-09-07
+    week: 1
+    topic: Inductions
+    assessment: ~
+      #name: 5% Company Research
+      #due: 2026-09-16
+      #percentage: 5
+      #submission: Moodle
+         
+  - date: 2026-09-14
+    week: 2
+    topic: MS Word Shortcuts
+    
+  - date: 2026-09-21
+    week: 3
+    topic: MS Word
+    assessment: ~
+
+  - date: 2026-09-28
+    week: 4
+    topic: 
+    assessment: ~
+  
+  - date: 2026-10-05
+    week: 5
+    topic: 
+    assessment: ~
+
+  - date: 2026-10-12
+    week: 6
+    topic:
+    assessment: ~
+
+  - date: 2026-10-19
+    week: 7
+    topic: 
+    assessment: ~
+
+  - date: 2026-10-25
+    week: ~
+    topic: Reading Week
+    assessment: ~
+   
+
+  - date: 2026-11-02
+    week: 8
+    topic: 
+    assessment: ~
+ 
+  - date: 2026-11-09
+    week: 9
+    topic: 
+    assessment: ~
+
+  - date: 2026-11-16
+    week: 10
+    topic: 
+    assessment: ~
+
+  - date: 2026-11-23
+    week: 11
+    topic: 
+    # assessment: ~
+
+  - date: 2026-12-01
+    week: 12
+    topic: 
+    assessment: ~
+#      name: End of Semester Assignment
+#      due: 2025-12-19
+ #     percentage: 60
+ #     submission: Moodle with possible interview

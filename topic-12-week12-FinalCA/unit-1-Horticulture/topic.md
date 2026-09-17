@@ -1,3 +1,3 @@
-# Dec 4th Horticulture Presentations
+# Dec 1st Horticulture Presentations 9:15 ITG18
 
-PowerPoint Presentations
+10 min PowerPoint Presentation

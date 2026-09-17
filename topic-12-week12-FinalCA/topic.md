@@ -1,3 +1,3 @@
-# 12. Dec 2nd 20% Presentations CA
+# 12. Dec 1 [hort] & Dec 2 [forestry]
 
-Presentations
+10 min individual Presentations

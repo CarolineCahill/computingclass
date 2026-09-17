@@ -1,3 +1,3 @@
-# Forestry Excel
+# Dec 2nd Forestry  Presentations: 12:15 TL228 & 14:15 ITG01
 
-InClass MS Excel Exam
+10 min PowerPoint Presentation
