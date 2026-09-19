@@ -5,7 +5,7 @@ ignorepin      : 1122
 ignore :
   - topic-000-week000-Research
 #  - topic-01-week1-intro-TOC
-  - topic-02-week3-MS_Word
+# - topic-02-week3-MS_Word
   - topic-03-week4-CV_Emails
   - topic-04-week5-Meetings
   - topic-06-week6-Referencing
